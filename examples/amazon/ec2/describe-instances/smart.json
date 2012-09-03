@@ -4,9 +4,7 @@
     "branch": "devel-auth"
   },
   "packages": {
-    "awssum": {
-      "path": "/Users/mike/work/m/awssum"
-    },
+    "awssum": "0.0.1",
     "deploy-config": "0.0.3"
   }
 }
