@@ -7,7 +7,7 @@
   "dependencies": {
     "basePackages": {
       "awssum": {
-        "path": "/Users/mike/work/m/awssum"
+        "version": "0.0.1"
       },
       "deploy-config": {
         "version": "0.0.3"
@@ -15,7 +15,9 @@
     },
     "packages": {
       "awssum": {
-        "path": "/Users/mike/work/m/awssum"
+        "git": "https://github.com/possibilities/meteor-awssum.git",
+        "tag": "v0.0.1",
+        "commit": "8a6a11816d7c679111e56d05c9c204c17a1b8a6c"
       },
       "deploy-config": {
         "git": "https://github.com/possibilities/meteor-deploy-config.git",

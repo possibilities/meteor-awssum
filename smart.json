@@ -7,6 +7,6 @@
   "git": "https://github.com/possibilities/meteor-awssum.git",
   "packages": {
     "underscore-string": "2.2.0rc.1",
-    "node-modules": "0.0.1"
+    "node-modules": "0.0.2"
   }
 }
