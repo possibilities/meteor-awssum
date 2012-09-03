@@ -1,6 +1,6 @@
 # awssum
 
-*[AwsSum](http://awssum.io/) Amazon Web Services API library repackaged for Meteor*
+*[AwsSum](http://awssum.io/) (Amazon Web Services API lib) repackaged for Meteor*
 
 ## Example usage
 

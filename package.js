@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "AwsSum Amazon Web Services API library repackaged for Meteor"
+  summary: "AwsSum (Amazon Web Services API lib) repackaged for Meteor"
 });
 
 Package.on_use(function (api) {
