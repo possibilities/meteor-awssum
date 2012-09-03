@@ -23,3 +23,9 @@
         return data;
       }
     });
+
+## Working example(s)
+
+### Amazon
+
+https://github.com/possibilities/meteor-awssum/tree/master/examples/amazon
