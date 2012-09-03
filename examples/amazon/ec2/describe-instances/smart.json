@@ -1,0 +1,12 @@
+{
+  "meteor": {
+    "git": "https://github.com/possibilities/meteor",
+    "branch": "devel-auth"
+  },
+  "packages": {
+    "awssum": {
+      "path": "/Users/mike/work/m/awssum"
+    },
+    "deploy-config": "0.0.3"
+  }
+}

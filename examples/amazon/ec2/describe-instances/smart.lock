@@ -1,0 +1,35 @@
+{
+  "meteor": {
+    "git": "https://github.com/possibilities/meteor",
+    "branch": "devel-auth",
+    "commit": "ac0a0374f3e4035575664ad4fc7950ef356505c3"
+  },
+  "dependencies": {
+    "basePackages": {
+      "awssum": {
+        "path": "/Users/mike/work/m/awssum"
+      },
+      "deploy-config": {
+        "version": "0.0.3"
+      }
+    },
+    "packages": {
+      "awssum": {
+        "path": "/Users/mike/work/m/awssum"
+      },
+      "deploy-config": {
+        "git": "https://github.com/possibilities/meteor-deploy-config.git",
+        "tag": "v0.0.3",
+        "commit": "2623b63b5786ab4a13d90bf290c26474ef1131d8"
+      },
+      "underscore-string": {
+        "git": "https://github.com/possibilities/meteor-underscore-string.git",
+        "tag": "v2.2.0rc.1",
+        "commit": "dec21fac23310daf76dc19f246749e7beb48af03"
+      },
+      "node-modules": {
+        "path": "/Users/mike/work/m/node-modules"
+      }
+    }
+  }
+}

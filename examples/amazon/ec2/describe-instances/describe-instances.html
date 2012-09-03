@@ -1,0 +1,31 @@
+<head>
+  <title>Amazon | Ec2 | DescribeInstances</title>
+</head>
+
+<body>
+  <h1>Amazon - Ec2 - DescribeInstances</h1>
+  {{> instances}}
+</body>
+
+<template name="instances">
+  {{#if instances}}
+    <table class="table-striped">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each instances}}
+          <tr>
+            <td>{{this.instancesSet.item.instanceId}}</td>
+            <td>{{this.instancesSet.item.instanceState.name}}</td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  {{else}}
+    Loading...
+  {{/if}}
+</template>
