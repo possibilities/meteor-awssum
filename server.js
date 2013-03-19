@@ -1,3 +1,5 @@
+var require = __meteor_bootstrap__.require
+var Future = require('fibers/future');
 
 AWSSum = {
   load: function(moduleName, className) {
